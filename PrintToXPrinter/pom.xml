@@ -18,5 +18,11 @@
             <version>2.3</version>
             <type>jar</type>
         </dependency>
+        <dependency>
+            <groupId>ru.r2cloud</groupId>
+            <artifactId>jradio</artifactId>
+            <version>1.4</version>
+            <type>jar</type>
+        </dependency>
     </dependencies>
 </project>
