@@ -1,7 +1,3 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/GUIForms/JFrame.java to edit this template
- */
 package com.aldrin.printtoxprinter;
 
 import com.aldrin.printtoxprinter.model.Item;
@@ -25,10 +21,6 @@ import javax.swing.JTable;
 import javax.swing.table.DefaultTableModel;
 import javax.swing.table.JTableHeader;
 
-/**
- *
- * @author Java Programming with Aldrin
- */
 public class JFrameXPrinter extends javax.swing.JFrame implements Printable {
 
     /**
@@ -136,7 +128,7 @@ public class JFrameXPrinter extends javax.swing.JFrame implements Printable {
         jScrollPane1.setViewportView(jTable1);
 
         jLabel7.setBackground(new java.awt.Color(156, 191, 221));
-        jLabel7.setText("jLabel7");
+        jLabel7.setText("label");
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -335,11 +327,11 @@ public class JFrameXPrinter extends javax.swing.JFrame implements Printable {
                 y += yShift + 30;
                 g2d.drawString("------------------------------", 10, y);
                 y += yShift;
-                g2d.drawString(" Java Programming with Aldrin", 10, y);
+                g2d.drawString("EasyBilling", 10, y);
                 y += yShift;
-                g2d.drawString("  Rufino St.,Legaspi Village ", 10, y);
+                g2d.drawString("Devoloped by ", 10, y);
                 y += yShift;
-                g2d.drawString("   Makati City, Metro Manila ", 10, y);
+                g2d.drawString("Team Aspirants ", 10, y);
                 y += yShift;
                 y += yShift;
                 y += yShift;
